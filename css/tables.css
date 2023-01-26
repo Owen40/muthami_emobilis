@@ -1,0 +1,20 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px #888888 solid;
+  text-align: center;
+  font-family: "DejaVu Sans Mono";
+  padding: 5px 10px;
+}
+
+th {
+  border-bottom: 4px #050517 solid;
+}
+
+tr:nth-child(EVEN) {
+  background: #050517;
+  color: #FF206E;
+}

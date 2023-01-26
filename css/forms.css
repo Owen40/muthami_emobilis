@@ -1,0 +1,39 @@
+form {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  border: 3px solid #222222;
+  border-radius: 20px;
+  text-align: center;
+}
+
+form input {
+  width: 100%;
+  /* padding: 10px; */
+  border: none;
+  border-bottom: 2px solid #0c0f0a;
+  border-radius: 5px;
+}
+
+.radios {
+  display: flex;
+}
+
+form label {
+  text-align: left;
+}
+
+.form-group {
+  padding: 15px;
+  float: center;
+}
+
+.reg-btn {
+  width: 80%;
+  padding: 10px;
+  font-size: 15px;
+  background: linear-gradient(270deg, #1aceb9, #820BF2);
+  border: none;
+  border-radius: 15px;
+  margin: 15px;
+}

@@ -1,0 +1,47 @@
+p {
+  color: #222222;
+  font-family: 'Lobster', cursive;
+  font-size: 1.6rem;
+}
+
+body {
+  background-image: url("icon.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  color: #cccccc;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#myBtn {
+  padding: 15px 25px;
+  background: #000000;
+  color: #888888;
+  width: 25%;
+  border-radius: 30px;
+}
+
+.callout {
+  width: 35%; background: #222222;color: #772CE8;
+}
+
+.callout p {color: #2ef6b3;
+}
+
+.closebtn {position: absolute;right: 25px;
+}
